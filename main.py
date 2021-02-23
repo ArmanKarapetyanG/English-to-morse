@@ -87,8 +87,8 @@ while more == "Ystart" or more == "Y":
 
         print(f'result: {string_to_morse(text_eng)}')
 
-        more = str(input("Press 'Y' for another try or any-key for leave ")).upper()
+        more = str(input("Press 'Y' for another try or any-key to leave ")).upper()
 
     except KeyError:
         print("\nSome chars can't be transform to morse")
-        more = str(input("Press 'Y' for another try or any-key for leave ")).upper()
+        more = str(input("Press 'Y' for another try or any-key to leave ")).upper()
